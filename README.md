@@ -1,44 +1,44 @@
-# 🏛️ The Sovereign Thesis Template
+# 🎓 Elegant & Modern Thesis Template
 
 <div align="center">
 
+<img src="Thesis_Tamplate.jpg" alt="Thesis Template Preview" width="100%" />
+
+<br/><br/>
+
 ![Engine](https://img.shields.io/badge/Engine-XeLaTeX-8E44AD?style=for-the-badge&logo=latex&logoColor=white)
-![Layout](https://img.shields.io/badge/Layout-Two--Sides-D35400?style=for-the-badge)
-![Typography](https://img.shields.io/badge/Typography-Classic__Elegant-27AE60?style=for-the-badge)
-![Design](https://img.shields.io/badge/Design-Premium__Academic-2C3E50?style=for-the-badge)
+![Build](https://img.shields.io/badge/Build-Passing-27AE60?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 </div>
 
-An academic masterpiece deserves more than just standard margins and generic layouts. **The Sovereign** is a premium, professionally engineered XeLaTeX template crafted specifically for rigorous academic research, dissertations, and high-end book printing. 
-
-Built on a timeless, symmetric **Two-Sides** layout, this template revives the golden ratio of classic book-binding while embracing modern typesetting power.
+A clean, high-performance **XeLaTeX** template tailored for Master's and Ph.D. dissertations. Designed with focus on typography, modern page layouts, and clean code structure.
 
 ---
 
-## 🎨 Design Philosophy & Features
+## ✨ Key Highlights
 
-* **📜 The Golden Ratio Layout:** Perfectly calculated asymmetric margins on single pages that seamlessly align into a gorgeous, balanced spread when printed and bound (Two-Sides).
-* **🔤 Typographical Excellence via XeLaTeX:** Zero limitations on fonts. It is pre-configured to leverage advanced OpenType system fonts, ligatures, and pristine micro-typography.
-* **🖋️ Academic Sophistication:** From running headers that adapt dynamically to chapters, to meticulously spaced footnotes, every element is designed to minimize visual clutter and maximize readability.
-* **🧩 Modular Architecture:** No monolithic code. Your front matter, chapters, and bibliography are cleanly separated for an effortless writing experience.
-
----
-
-## 📦 System Requirements
-
-> [!WARNING]
-> Because this template heavily relies on native system font loading and advanced modern packages, compiling it with standard `pdfLaTeX` will fail. You **must** use the **XeLaTeX** engine.
-
-### Recommended Toolchain:
-* **`xelatex`** — Core compiler for modern font mapping and rendering.
-* **`biber`** — Next-generation bibliography processor for flawless citation management via `biblatex`.
-* **`latexmk`** — Highly recommended to automate multiple compilation passes (Table of Contents, Cross-references, and Citations).
+* **📖 Optimized Layout:** Pre-configured margins and two-sided layout ready for printing and binding.
+* **⚡ Modern Fonts:** Built to handle system OpenType/TrueType fonts seamlessly via `fontspec`.
+* **📁 Clean Project Structure:** Modular design separating chapters, bibliography, and custom packages for easy navigation.
+* **📚 Citation Ready:** Integrated with `biblatex` and `biber` for effortless reference management.
 
 ---
 
-## 🚀 Quick Start Guide
+## 🛠️ Requirements & Setup
 
-To compile your thesis with its full index, glossary, and bibliography layout, simply run this command in your terminal:
+> [!IMPORTANT]
+> This template requires **XeLaTeX** to compile properly. Standard `pdfLaTeX` is not supported.
+
+### Recommended Environment:
+* **TeX Distribution:** TeX Live / MikTeX / Overleaf (XeLaTeX engine)
+* **Bibliography Backend:** `biber`
+
+---
+
+## ⚡ Quick Compilation
+
+To build the complete document with all citations and references, run:
 
 ```bash
 latexmk -xelatex main.tex
