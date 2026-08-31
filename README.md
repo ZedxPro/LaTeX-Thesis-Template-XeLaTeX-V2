@@ -18,7 +18,7 @@ A clean, high-performance **XeLaTeX** template tailored for Master's and Ph.D. d
 
 ## ✨ Key Highlights
 
-* **📖 Optimized Layout:** Pre-configured margins and two-sided layout ready for printing and binding.
+* **📖 Optimized Layout:** Pre-configured margins and clean single-sided layout ready for digital reading and printing.
 * **⚡ Modern Fonts:** Built to handle system OpenType/TrueType fonts seamlessly via `fontspec`.
 * **📁 Clean Project Structure:** Modular design separating chapters, bibliography, and custom packages for easy navigation.
 * **📚 Citation Ready:** Integrated with `biblatex` and `biber` for effortless reference management.
